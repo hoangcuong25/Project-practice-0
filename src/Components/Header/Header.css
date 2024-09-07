@@ -1,0 +1,36 @@
+.header {
+    display: flex;
+    justify-content: space-around;
+    padding: 16px;
+}
+
+.track-order img {
+    height: 63px;
+    width: 63px;
+    padding: 0px;
+}
+
+.whish-list img {
+    height: 43px;
+    width: 80px;
+    padding-top: 20px;
+}
+
+.logo img {
+    height: 233px;
+    width: 233px;
+    display: flex;
+    align-items: center;
+}
+
+.signin-register img {
+    height: 40px;
+    width: 40px;
+    padding-top: 20px;
+}
+
+.cart img {
+    height: 50px;
+    width: 50px;
+    padding-top: 20px;
+}
