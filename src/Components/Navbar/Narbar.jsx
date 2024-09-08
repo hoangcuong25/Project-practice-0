@@ -13,6 +13,7 @@ const Navbar = () => {
                     <li onClick={() => { setMenu("shop") }}><Link style={{ textDecoration: 'none' }} to="/">SHOP</Link>{menu === "shop" ? <hr /> : <></>}</li>
                     <li onClick={() => { setMenu("men") }}><Link style={{ textDecoration: 'none' }} to="/men">MEN</Link>{menu === "men" ? <hr /> : <></>}</li>
                     <li onClick={() => { setMenu("women") }}><Link style={{ textDecoration: 'none' }} to="/women">WOMEN</Link>{menu === "women" ? <hr /> : <></>}</li>
+                    <li onClick={() => { setMenu("best-seller") }}><Link style={{ textDecoration: 'none' }} to="/best-seller">BEST SELLERS</Link>{menu === "best-seller" ? <hr /> : <></>}</li>
                     <li onClick={() => { setMenu("blogs") }}><Link style={{ textDecoration: 'none' }} to="/blogs">BLOGS</Link>{menu === "blogs" ? <hr /> : <></>}</li>
                 </ul>
                 <div className="search">
@@ -20,7 +21,7 @@ const Navbar = () => {
                     <input type="text" placeholder="Search" />
                 </div>
             </div>
-
+            <hr className="hr-navbar"/>
         </div>
     )
 }

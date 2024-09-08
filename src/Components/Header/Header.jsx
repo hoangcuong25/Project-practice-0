@@ -11,7 +11,7 @@ const Header = (params) => {
     return (
         <div>
             <div className="header">
-                <div className="left">
+                <div className="header-left">
                     <div className="track-order">
                         <Link to="/track-oder"> <img src={track_order} alt="" /></Link>
                         <p>TRACK ORDER</p>
@@ -24,7 +24,7 @@ const Header = (params) => {
                 <div className="logo">
                     <Link to="/"><img src={logo_icon} alt="" /></Link>
                 </div>
-                <div className="right">
+                <div className="header-right">
                     <div className="signin-register">
                         <Link to="/sigin-register"><img src={signin_register_icon} alt="" /></Link>
                         <p>SIGN IN/ REGISTER</p>
@@ -35,7 +35,7 @@ const Header = (params) => {
                     </div>
                 </div>
             </div>
-            <hr />
+            <hr className="hr-header"/>
         </div>
     )
 }

@@ -1,0 +1,15 @@
+.brands img {
+    gap: 100px;
+    margin: 37px;
+    margin-top: -37px;
+}
+.brands p {
+    font-size: 31px;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+.brands img:hover{
+    transform: scale(1.17);
+    transition: 0.6s;
+}

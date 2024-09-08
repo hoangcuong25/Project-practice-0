@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-around;
     font-weight: 600;
+    font-size: 17px;
 }
 
 .cart-count {
@@ -18,17 +19,17 @@
     color: white;
 }
 
-hr {
+.hr-header {
     margin-top: -13px;
-    border-top: 1px solid rgb(221, 221, 221);
+    border: 1px solid rgb(221, 221, 221);
 }
 
-.left {
+.header-left {
     display: flex;
     justify-content: space-around;
 }
 
-.right {
+.header-right {
     display: flex;
     justify-content: space-around;
 }
