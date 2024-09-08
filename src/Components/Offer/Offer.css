@@ -1,0 +1,39 @@
+.offer {
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    padding-top: 70px;
+}
+
+.offer img {
+    height: 617px;
+    width: 873px;
+    margin-right: 300px;
+}
+
+.offer-left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.offer h1 {
+    color: #171717;
+    font-size: 73px;
+    font-weight: 600;
+    margin: -10px;
+}
+
+.offer-left button{
+    margin-left: 500px;
+    width: 282px;
+    height: 70px;
+    border-radius: 35px;
+    background: #ff4141;
+    border: none;
+    font-size: 23px;
+    font-weight: 500;
+    margin-top: 30px;
+    cursor: pointer;
+}

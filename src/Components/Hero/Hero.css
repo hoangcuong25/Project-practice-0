@@ -1,15 +1,35 @@
-.brands img {
+.hero-brands img {
     gap: 100px;
     margin: 37px;
-    margin-top: -37px;
+    margin-top: -30px;
 }
-.brands p {
+
+.hero-brands p {
     font-size: 31px;
     margin-top: 10px;
     font-weight: 600;
 }
 
-.brands img:hover{
+.hero-brands img:hover {
     transform: scale(1.17);
     transition: 0.6s;
+}
+
+.hero {
+    margin-top: 37px;
+}
+
+.hero-img {
+    display: flex;
+    justify-content: center;
+}
+.hero-img img {
+    height: 300px;
+    width: 300px;
+    margin: 0px 17px;
+}
+
+.hero-img p {
+    font-size: 18px;
+    font-weight: 500;
 }

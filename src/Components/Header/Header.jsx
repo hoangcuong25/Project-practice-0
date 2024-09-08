@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import './Header.css';
 import track_order from '../Assets/track_oder_icon.png';
 import whish_list_icon from '../Assets/whishlist_icon.jpg'
@@ -7,9 +7,10 @@ import signin_register_icon from '../Assets/avata_icon.jpg'
 import cart_icon from '../Assets/cart_icon.jpg'
 import { Link } from "react-router-dom";
 
-const Header = (params) => {
+const Header = () => {
+
     return (
-        <div>
+        <div >
             <div className="header">
                 <div className="header-left">
                     <div className="track-order">
