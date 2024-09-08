@@ -1,7 +1,12 @@
 .header {
     display: flex;
     justify-content: space-around;
-    padding: 16px;
+}
+
+.track-order {
+    height: 100px;
+    display: flex;
+    align-items: center;
 }
 
 .track-order img {
@@ -10,27 +15,70 @@
     padding: 0px;
 }
 
+
+.whish-list {
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+
 .whish-list img {
     height: 43px;
     width: 80px;
-    padding-top: 20px;
+    padding-top: 10px;
 }
 
-.logo img {
-    height: 233px;
-    width: 233px;
+.logo{
+    height: 200px;
     display: flex;
     align-items: center;
+}
+.logo img {
+    height: 217px;
+    width: 220px;
+    display: flex;
+    align-items: center;
+}
+
+.signin-register {
+    display: flex;
+    align-items: center;
+    height: 100px;
 }
 
 .signin-register img {
     height: 40px;
     width: 40px;
-    padding-top: 20px;
+    padding-top: 10px;
+}
+
+
+.cart {
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+.cart-count{
+    width: 22px;
+    height: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -10px;
+    margin-left: -15px;
+    border-radius: 11px;
+    font-size: 14px;
+    background: red;
+    color: white;
 }
 
 .cart img {
     height: 50px;
     width: 50px;
     padding-top: 20px;
+}
+
+hr {
+    margin-top: -10px;
+    border-top: 1px solid rgb(221, 221, 221);
 }
