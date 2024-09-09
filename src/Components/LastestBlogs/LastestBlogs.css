@@ -1,0 +1,13 @@
+.lastest-blogs h2 {
+    font-size: 35px;
+}
+
+.lastest-blogs-main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    margin: 37px 203px;
+}
+.lastest-blogs{
+    display: flex;
+    flex-direction: column;
+}

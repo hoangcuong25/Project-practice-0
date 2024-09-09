@@ -4,6 +4,7 @@ import Header from './Components/Header/Header';
 import Navbar from './Components/Navbar/Narbar';
 import Shop from './Pages/Shop'
 import Footer from './Components/Footer/Footer';
+import ShopCategory from './Pages/ShopCategory';
 
 function App() {
   return (
@@ -13,12 +14,12 @@ function App() {
         <Navbar />
         <Routes>
           <Route path='/' element={<Shop />} />
-          <Route path='/men' element={<Shop />} />
+          <Route path='/men' element={<ShopCategory category="men" />} />
           <Route path='/women' element={<Shop />} />
           <Route path='/best-seller' element={<Shop />} />
           <Route path='/offers' element={<Shop />} />
           <Route path='/gifting' element={<Shop />} />
-          <Route path='/blogs' element={<Shop />} />
+          <Route path='/blogs' element={<Shop />} /> 
         </Routes>
         <Footer/>
       </BrowserRouter>

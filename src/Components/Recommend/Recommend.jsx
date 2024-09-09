@@ -1,14 +1,14 @@
 import React from "react";
 import './Recommend.css'
 import Item from "../Items/Items";
-import all_item from "../Assets/recommned_item";
+import recommend_item from "../Assets/recommned_item";
 
 const Recommend = () => {
     return (
         <div className="recommend">
             <h1>RECOMMEND FOR YOU</h1>
             <div className="recommend-item">
-                {all_item.map((item, i) => {
+                {recommend_item.map((item, i) => {
                     return <Item key={i} id={item.id} name={item.name} brands={item.brands} image={item.image} old_price={item.old_price} new_price={item.new_price} />
                 })}
             </div>

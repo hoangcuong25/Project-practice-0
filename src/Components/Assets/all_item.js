@@ -3,7 +3,7 @@ import item2 from './item2.png'
 import item3 from './item3.png'
 import item4 from './item4.png'
 
-let recommend_item = [
+let all_item = [
     {
         id : 1,
         name: `J'adore L’Or Eau De Parfum 50ml`,
@@ -42,4 +42,4 @@ let recommend_item = [
     },
 ];
 
-export default recommend_item;
+export default all_item;
