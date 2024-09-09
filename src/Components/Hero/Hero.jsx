@@ -11,6 +11,7 @@ import for_her from '../Assets/for_her.png'
 import for_him from '../Assets/for_him.png'
 import new_in from '../Assets/new_in.png'
 import sale from '../Assets/sale.png'
+import { Link } from "react-router-dom";
 
 const Hero = () => {
     return (
@@ -20,20 +21,20 @@ const Hero = () => {
             </div>
             <div className="hero-brands">
                 <p>OUR FRAGRANCE BRANDS</p>
-                <img src={dolce_gabbana_logo} alt="" />
-                <img src={carolina_herrera_logo} alt="" />
-                <img src={gucci_logo} alt="" />
-                <img src={marc_jacobs_logo} alt="" />
-                <img src={tom_ford_logo} alt="" />
-                <img src={versace_logo} alt="" />
+                <Link to='/dolce'><img onClick={window.scrollTo(0, 0)} src={dolce_gabbana_logo} alt="" /></Link>
+                <Link to='/carolina'><img onClick={window.scrollTo(0, 0)} src={carolina_herrera_logo} alt="" /></Link>
+                <Link to='/gucci'><img onClick={window.scrollTo(0, 0)} src={gucci_logo} alt="" /></Link>
+                <Link to='/marc'><img onClick={window.scrollTo(0, 0)} src={marc_jacobs_logo} alt="" /></Link>
+                <Link to='/tomford'><img onClick={window.scrollTo(0, 0)} src={tom_ford_logo} alt="" /></Link>
+                <Link to='/versace'><img onClick={window.scrollTo(0, 0)} src={versace_logo} alt="" /></Link>
             </div>
             <div className="hero-img">
                 <div className="hero-img-for-her">
-                    <img src={for_her} alt="" />
+                    <Link to='/women'><img onClick={window.scrollTo(0, 0)} src={for_her} alt="" /></Link>
                     <p>For Her</p>
                 </div>
                 <div className="hero-img-for-him">
-                    <img src={for_him} alt="" />
+                    <Link to='/men'><img onClick={window.scrollTo(0, 0)} src={for_him} alt="" /></Link>
                     <p>For Him</p>
                 </div>
                 <div className="hero-img-new-in">

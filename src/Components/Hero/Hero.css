@@ -5,9 +5,10 @@
 }
 
 .hero-brands p {
-    font-size: 31px;
+    font-size: 35px;
     margin-top: 10px;
     font-weight: 600;
+    margin-bottom: 20px;
 }
 
 .hero-brands img:hover {

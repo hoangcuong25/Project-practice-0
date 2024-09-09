@@ -1,0 +1,33 @@
+.shop-category {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 300px;
+}
+
+.shop-category-items {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    margin-top: 17px;
+    justify-items: center;
+}
+
+.new-item-text{
+    font-size: 35px;
+    margin-bottom: 17px;
+    margin-top: 73px;
+}
+
+.new-item {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 300px;
+    align-items: center;
+}
+
+.new-item-items {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    margin: 17px 37px 0px 37px;
+    justify-items: center;
+    gap: 73px;
+}
