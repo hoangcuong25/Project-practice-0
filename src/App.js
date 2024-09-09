@@ -3,6 +3,7 @@ import './App.css';
 import Header from './Components/Header/Header';
 import Navbar from './Components/Navbar/Narbar';
 import Shop from './Pages/Shop'
+import Footer from './Components/Footer/Footer';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path='/gifting' element={<Shop />} />
           <Route path='/blogs' element={<Shop />} />
         </Routes>
+        <Footer/>
       </BrowserRouter>
     
     </div>

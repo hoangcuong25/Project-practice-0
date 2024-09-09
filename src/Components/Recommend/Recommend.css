@@ -1,3 +1,13 @@
 .recommend {
-    margin-top: 73px;
+    margin: 137px 300px;
+    display: flex;
+    flex-direction: column;
+}
+
+.recommend-item {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    margin-top: 50px;
+    justify-items: center;
+    align-items: center;
 }

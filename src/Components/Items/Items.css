@@ -1,0 +1,28 @@
+.item-img img {
+    width: 273px;
+    height: 273px;
+}
+.item {
+    width: 350px;
+}
+.item-brands h2{
+    font-size: 25px;
+    margin: 13px 0px 3px 0px;
+}
+.item-name p {
+    font-size: 20px;
+    margin: 0px;
+}
+.item-img img:hover{
+    transform: scale(1.1);
+    transition: 0.6s;
+}
+
+.item-old-price p {
+    color: #8c8c8c;
+    text-decoration: line-through;
+    margin: 0px;
+}
+.item-new-price p {
+    margin-bottom: 0px;
+}

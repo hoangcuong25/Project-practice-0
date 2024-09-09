@@ -23,6 +23,7 @@
     display: flex;
     justify-content: center;
 }
+
 .hero-img img {
     height: 300px;
     width: 300px;
@@ -32,4 +33,9 @@
 .hero-img p {
     font-size: 18px;
     font-weight: 500;
+}
+
+.hero-img img:hover {
+    transform: scale(1.05);
+    transition: 0.7s;
 }

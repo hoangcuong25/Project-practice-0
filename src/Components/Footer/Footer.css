@@ -1,11 +1,9 @@
 .footer-logo img {
     height: 193px;
     width: 213px;
-    margin-top: 57px;
-
 }
 
-.footer-links{
+.footer-links {
     display: flex;
     list-style: none;
     gap: 100px;
@@ -18,32 +16,37 @@
     cursor: pointer;
 }
 
-.footer-social  {
+.footer-social {
     display: flex;
     justify-content: center;
 }
+
 .footer-social img {
     margin: 57px 117px;
 }
-.hr-footer{
+
+.hr-footer {
     margin-top: -10px;
     border: 1px solid rgb(124, 123, 123);
     width: 60%;
 }
-.footer-copyright{
+
+.footer-copyright {
     color: #1a1a1a;
     font-size: 21px;
     margin-top: 50px;
 }
 
-.footer{
+.footer {
     margin-top: 103px;
 }
-.footer-text h1{
+
+.footer-text h1 {
     font-size: 30px;
+    margin-top: -37px;
 }
 
-.footer-text p{
+.footer-text p {
     font-size: 15px;
     padding: 7px 583px;
 }

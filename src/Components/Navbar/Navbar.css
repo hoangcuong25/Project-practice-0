@@ -34,8 +34,9 @@
 }
 
 .search input {
-    border: none;
     font-size: 20px;
+    border: none;
+    outline: none;
 }
 
 .hr-navbar{
