@@ -1,14 +1,15 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 import './Header.css';
 import track_order from '../Assets/track_oder_icon.png';
 import whish_list_icon from '../Assets/whishlist_icon.jpg'
 import logo_icon from '../Assets/logo_icon.png'
 import signin_register_icon from '../Assets/avata_icon.jpg'
-import cart_icon from '../Assets/cart_icon.jpg'
+import cart_icon from '../Assets/cart_icon.png'
 import { Link } from "react-router-dom";
+import { ShopContext } from "../../Context/ShopContext";
 
 const Header = () => {
-
+    const  { getTotalCartItems } = useContext(ShopContext)
     return (
         <div >
             <div className="header">
@@ -27,12 +28,12 @@ const Header = () => {
                 </div>
                 <div className="header-right">
                     <div className="signin-register">
-                        <Link to="/sigin-register"><img src={signin_register_icon} alt="" /></Link>
-                        <p>SIGN IN/ REGISTER</p>
+                        <Link to="/login"><img src={signin_register_icon} alt="" /></Link>
+                        <p>LOGIN IN/ SIGN UP</p>
                     </div>
                     <div className="cart">
                         <Link to="/cart"><img src={cart_icon} alt="" /></Link>
-                        <div className="cart-count">0</div>
+                        <div className="cart-count">{getTotalCartItems()}</div>
                     </div>
                 </div>
             </div>

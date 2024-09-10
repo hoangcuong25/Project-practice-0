@@ -1,0 +1,11 @@
+.shop-brands {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 300px;
+}
+.shop-brands-items {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr ;
+    margin-top: 17px;
+    justify-items: center;
+}
